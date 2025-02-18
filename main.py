@@ -3,7 +3,7 @@ from tabnanny import check
 #better in terms of syntax and reducing repeated logic; however, it would be more efficient to iterate through the drink["ingredients"]
 # dictionary so that I can save lines of code instead of doing each thing one at a time
 
-MENU = {
+MENU = { 
     "espresso": {
         "ingredients": {
             "water": 50,
@@ -28,7 +28,7 @@ MENU = {
         "cost": 3.0,
     }
 }
-
+ 
 resources = {
     "water": 300,
     "milk": 200,
